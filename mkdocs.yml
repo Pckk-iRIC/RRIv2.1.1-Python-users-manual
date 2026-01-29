@@ -1,0 +1,41 @@
+site_name: RRI v2.1.1 Python Users Manual
+site_description: RRI v2.1.1 Python版 ユーザーマニュアル
+site_author: RRI Python Team
+repo_url: ''
+use_directory_urls: true
+nav:
+  - はじめに:
+      - このマニュアルについて: index.md
+      - ワークフロー全体像: workflow.md
+      - 目的別ガイド: guide.md
+  - 導入:
+      - インストール: installation.md
+      - クイックスタート: quickstart.md
+  - GUI:
+      - 入力データ作成 (pre): gui/preproc.md
+      - 結果可視化 (post): gui/postproc.md
+  - CLI:
+      - 使い方の概要: cli/index.md
+      - scaleFree: cli/scalefree.md
+      - scaleFree + landuse: cli/scalefree_landuse.md
+      - landuse 付与: cli/landuse.md
+      - makeRiver5: cli/make_river5.md
+      - calcHydro: cli/calc_hydro.md
+      - calcPeak: cli/calc_peak.md
+      - post-header: cli/post_header.md
+      - post-value-max: cli/post_value_max.md
+  - 設定ファイル:
+      - 概要: config/index.md
+      - project.toml: config/project_toml.md
+      - tools_config の使い方: config/tools_config.md
+  - 付録:
+      - トラブルシューティング: troubleshooting.md
+      - 用語集: glossary.md
+theme:
+  name: readthedocs
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - tables
+  - fenced_code
