@@ -1,7 +1,6 @@
 # RRIv2.1.1-Python-users-manual
 非公開リポジトリであるRRI2.1.1-Pythonのユーザー用マニュアルです。
 
-
 ## RRIv2.1.1-Python概要
  - RRI関連処理を一部Pythonに置き変えたプロジェクトとなっています。
  - Python化するメリットとして前後処理との接続や設定ファイルの扱いやすさを向上させます。
@@ -12,3 +11,6 @@
 2. アクセス権を取得するにはGitHubアカウントの作成 + リポジトリ管理者への問い合わせが必要となります。
 3. 当該リポジトリの管理者は本Organization（Pckk-iRIC）管理者と同様なためそちらへお問い合わせください。
 4. RRIv2.1.1-Pythonへのリンクは[こちら](https://github.com/Pckk-solvers/RRIv2.1.1-Python)となります。
+
+
+> 公開ページ: [RRI v2.1.1 Python Users Manual](https://pckk-iric.github.io/RRIv2.1.1-Python-users-manual/)
