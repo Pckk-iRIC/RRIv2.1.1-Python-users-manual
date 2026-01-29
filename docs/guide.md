@@ -7,7 +7,7 @@ CLI/GUI の入口が多いので、**利用シーンごとに何を使うか** �
 - **GUI（初心者向け）**: [入力データ作成 (pre)](gui/preproc.md)  
   - メッシュ生成 / 標高付与 / 土地利用区分コード付与 / Shapefile→ASCII
 - **CLI（大量処理向け）**: [scaleFree](cli/scalefree.md)  
-  - DEM/dir/acc を **スケールアップ（粗い格子化）** して前処理データを作成  
+- DEM/dir/acc を **スケールアップ（粗い格子化）** して派生データを作成  
   - landuse 付与や河道—斜面の接続情報にも使われる
 
 ## 2. landuse だけを更新したい

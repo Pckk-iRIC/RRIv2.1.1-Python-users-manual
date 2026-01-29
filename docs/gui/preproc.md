@@ -51,10 +51,6 @@
 
 ### 出力の意味（実装ベース）
 
-- `domain_standard_mesh`
-- `domain_mesh`
-- `basin_mesh`
-
 - `domain_standard_mesh` は、標準メッシュから **「計算領域ポリゴン (.shp):」** と交差するセルだけを抽出したものです。
   - GUI では標準メッシュが内部で固定されており、ユーザーが直接変更する項目はありません。
 - `domain_mesh` は計算領域を覆う計算格子メッシュです。

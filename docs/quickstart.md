@@ -9,28 +9,33 @@
 - 例: `data/tools_config/` 配下の設定を使う
 - 実データを使う場合は、パスを実データに合わせて編集します
 
-## 2. 前処理の一括実行（例）
+## 2. RRI 本体の実行（Fortran）
+
+Fortran 版 RRI を実行して `out` を生成します。  
+（実行方法は Fortran 側の手順に従ってください）
+
+## 3. 派生データ作成の一括実行（例）
 
 ```powershell
 uv run python main.py scalefree-landuse
+uv run python main.py make-river5
 ```
 
-## 3. 解析補助ツール
+## 4. 解析補助ツール
 
 ```powershell
-uv run python main.py make-river5
 uv run python main.py calc-hydro
 uv run python main.py calc-peak
 ```
 
-## 4. 後処理
+## 5. 後処理
 
 ```powershell
 uv run python main.py post-header
 uv run python main.py post-value-max
 ```
 
-## 5. 可視化 GUI
+## 6. 可視化 GUI
 
 ```powershell
 uv run python main.py post

@@ -1,16 +1,16 @@
-# RRIv2.1.1-Python-users-manual
-非公開リポジトリであるRRI2.1.1-Pythonのユーザー用マニュアルです。
+# RRIv2.1.1-Python Users Manual
+RRIv2.1.1-Python のユーザー向けマニュアルです。
+本マニュアルは **Pckk 関係者向けの非公開リポジトリ** を前提にしています。
 
-## RRIv2.1.1-Python概要
- - RRI関連処理を一部Pythonに置き変えたプロジェクトとなっています。
- - Python化するメリットとして前後処理との接続や設定ファイルの扱いやすさを向上させます。
+## 公開ページ
+- [RRI v2.1.1 Python Users Manual](https://pckk-iric.github.io/RRIv2.1.1-Python-users-manual/)
 
+## RRIv2.1.1-Python 概要
+- RRI 関連処理を一部 Python に置き換えたプロジェクトです。
+- 前後処理との接続や設定ファイルの扱いやすさを向上させます。
 
-## ソース確認とダウンロードについて
-1. 前提条件としてPckk関係者である必要があり、当該リポジトリへのアクセス権を取得する必要があります。
-2. アクセス権を取得するにはGitHubアカウントの作成 + リポジトリ管理者への問い合わせが必要となります。
-3. 当該リポジトリの管理者は本Organization（Pckk-iRIC）管理者と同様なためそちらへお問い合わせください。
-4. RRIv2.1.1-Pythonへのリンクは[こちら](https://github.com/Pckk-solvers/RRIv2.1.1-Python)となります。
-
-
-> 公開ページ: [RRI v2.1.1 Python Users Manual](https://pckk-iric.github.io/RRIv2.1.1-Python-users-manual/)
+## ソース取得・アクセス申請
+1. **Pckk 関係者のみ**アクセス可能です。
+2. GitHub アカウント作成のうえ、**リポジトリ管理者へアクセス申請**が必要です。
+3. 管理者は本 Organization（Pckk-iRIC）と同じため、**Pckk-iRIC 管理者へお問い合わせ**ください。
+4. 対象リポジトリ: [Pckk-solvers/RRIv2.1.1-Python](https://github.com/Pckk-solvers/RRIv2.1.1-Python)
